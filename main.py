@@ -3,8 +3,9 @@ from send_email import send_email
 
 topic = "chandrayan"
 API_KEY = "35976f576b924a5fac978a0e0bd8b70e"
+# Change the date to new date
 url = "https://newsapi.org/v2/everything?" \
-      f"q={topic}&from=2023-07-24&" \
+      "q={topic}&from=2023-09-20&" \
       "sortBy=publishedAt&" \
       "apiKey=35976f576b924a5fac978a0e0bd8b70e&" \
       "language=en"
